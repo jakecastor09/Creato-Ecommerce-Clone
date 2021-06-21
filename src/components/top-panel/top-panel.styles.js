@@ -30,7 +30,6 @@ export const PhoneNumber = styled.div`
 `;
 
 export const Email = styled.span`
-  background: rgba(255, 217, 16, 0.6);
   padding: 0.2rem 0;
 `;
 

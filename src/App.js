@@ -1,14 +1,13 @@
 import './App.css';
 
-import TopPanelCover from './components/top-panel/top-panel.component';
-
 import GlobalStyle from './globalStyles';
+import HomePage from './pages/homepage/homepage.component';
 
 function App() {
   return (
     <div>
       <GlobalStyle />
-      <TopPanelCover />
+      <HomePage />
     </div>
   );
 }

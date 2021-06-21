@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     .container{
-        max-width:1326px;
+        max-width:1342px;
         overflow: hidden;
         margin:0 auto;
     }
