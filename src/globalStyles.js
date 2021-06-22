@@ -27,9 +27,10 @@ const GlobalStyles = createGlobalStyle`
     }
 
     .container{
-        max-width:1342px;
+        max-width:1328px;
         overflow: hidden;
         margin:0 auto;
+      
     }
 
 `;
