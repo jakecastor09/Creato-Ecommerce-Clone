@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 export const FindBikeFormContainer = styled.div`
+
   
 `;
 
 export const Wrapper = styled.div` 
     width: 1328px;
-    height:25rem;
+    height:27.5rem;
     box-shadow:0 .5rem 2rem 1rem rgba(0,0,0,.1);
     background-color:#fff;
     transform: translateY(-3.8rem);
@@ -30,4 +31,7 @@ export const FormWrap = styled.ul`
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
+    
+   
+ 
 `;

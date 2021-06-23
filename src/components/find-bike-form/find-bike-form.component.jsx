@@ -13,12 +13,12 @@ const FindBikeForm = () =>{
         <TitleContainer>Find the bike</TitleContainer>
         <FormWrap>
             <Dropdown labelValue="Type" allValue={value1}/>
-            <Dropdown labelValue="Type" allValue={value1}/>
-            <Dropdown labelValue="Type" allValue={value1}/>
-            <CustomButton buttonType="outline">Search</CustomButton>
-            
+            <Dropdown labelValue="Wheel Size" allValue={value1}/>
+            <Dropdown labelValue="Brand" allValue={value1}/>
+            <CustomButton buttonType="outline" width="20rem" height="5.1rem">Search</CustomButton>
         </FormWrap>
         </Wrapper>
+    
     </div>
     </FindBikeFormContainer>
 )}

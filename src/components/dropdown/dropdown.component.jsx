@@ -8,7 +8,6 @@ const Dropdown = ({labelValue,allValue}) =>(
           {allValue.map(value => {
                 return <option value={value.split(" ").join("")}>{value}</option>
           })}
-             
            
           </select>
     </DropDownContainer>

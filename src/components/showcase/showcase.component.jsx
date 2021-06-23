@@ -4,12 +4,13 @@ import {
   ShowcaseContainer,
   ImageContainer,
   BackgroundContainer,
-  Wrapper
+  Wrapper,
+  PriceLabelContainer
 
 } from './showcase.styles';
 
 import sliderData from './showcase.data';
-
+import PriceLabel from '../price-label/price-label.component'
 
 
 const Showcase = () => {
@@ -22,10 +23,14 @@ const Showcase = () => {
             <Wrapper>
             <ImageContainer src={data.image} alt={data.model} />
             </Wrapper>
-
+            <PriceLabelContainer>
+              <PriceLabel className="priceLabel"/>
+            </PriceLabelContainer>
+            
           </>
         );
       })}
+
     </ShowcaseContainer>
   );
 };

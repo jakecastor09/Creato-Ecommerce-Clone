@@ -13,7 +13,8 @@ export const CustomButtonContainer = styled.button`
   border: 2px solid ${props => props.btnOutline && mainColor};
   cursor: pointer;
   position: relative;
-  height:4.8rem;
+  height:${(props)=> props.height || '4.8rem'};
+  width:${(props) => props.width || "" };
 
   :before {
     content: '';

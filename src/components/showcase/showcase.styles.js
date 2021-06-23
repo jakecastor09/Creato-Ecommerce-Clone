@@ -4,10 +4,11 @@ export const ShowcaseContainer = styled.div`
   width: 90%;
   display: flex;
   justify-content: center;
+ 
 
 `;
 export const Wrapper = styled.div`
-  position:relative;
+ position:relative;
  
   `;
 
@@ -23,6 +24,12 @@ export const BackgroundContainer = styled.img`
     position: absolute;
     top: 19.8rem;
     left: 1rem;
+`;
+
+export const PriceLabelContainer = styled.div`
+  position:absolute;
+  z-index: 100;
+  transform: translate(53.2rem,2rem);
 `;
 
 

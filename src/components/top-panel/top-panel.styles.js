@@ -41,6 +41,11 @@ export const LeftIconsContainer = styled.ul`
 export const ListIcon = styled.li`
   padding: 0 1rem;
   position: relative;
+  cursor: pointer;
+  transition:.3s ease;
+  :hover{
+    color:${mainColor};
+  }
 
   &:not(:last-child) {
     border-right: 1px solid ${lineColor};
