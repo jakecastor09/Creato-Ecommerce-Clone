@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const CategoryItemContainer = styled.div`
   width: 42.2rem;
   height: 30rem;
-  margin-left: 2rem;
   box-shadow: 0px 0px 1.4rem rgb(0 0 0 / 10%);
   display: flex;
   position: relative;
